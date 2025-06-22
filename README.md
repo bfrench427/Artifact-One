@@ -14,4 +14,5 @@ To run this program, each of the files included in this repository must be added
 2. MongoDB and MongoDBCompass
 3. Postman
 4. Angular Command Line Interface
+
 Once installed, the program can be run from the Command Prompt or Windows PowerShell by changing directory to the root folder of the project and typing "npm start". This will start the server of the program and establish its connection to the MongoDB database on localhost:3000. Opening a second Command Prompt or Windows PowerShell window and changing directory to the "app_admin" folder under the project's root folder and typing "ng serve" will start the SPA on localhost:4200. Then opening a browser and entering the localhost:4200 url will navigate to the SPA to add, edit, and view trip data contained in the MongoDB database.
